@@ -103,6 +103,7 @@ header section h1 {
     rgb(255,255,255)
   );
   color: rgb(255, 255, 255, 0.2);
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
 }
