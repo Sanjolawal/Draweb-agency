@@ -1,6 +1,31 @@
-body{
-    background: rgb(23, 23, 23);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background: rgb(23, 23, 23);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 0 5vw 0 5vw;
+  background: red;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(1, 1fr 2fr 1fr);
+  color: white;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  /* background: chartreuse; */
+  font-size: clamp(14px, 1.2vw, 3vw);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10vw 0 0 ;
+}
+nav p{
+    background: rgb(83, 78, 78);
+    width: 30%;
+    text-align: center;
+    padding: 1.5vh;
+    border-radius: 8px;
 }
