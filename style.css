@@ -181,8 +181,9 @@ main section {
 }
 .cta{
   color: crimson;
+  text-decoration: none;
 }
-main section menu {
+main section menu, main article menu {
   background: rgb(250, 250, 250);
   /* background: red; */
   padding: 3vh 0 3vh 0;
@@ -196,7 +197,7 @@ main section menu {
   animation-play-state: paused;
   z-index: 100;
 }  */
-main section menu div {
+main section menu div, main article menu div {
   background: rgb(250, 250, 250);
   height: 42vh;
   border-radius: 8px;
@@ -225,6 +226,18 @@ main menu div p {
   font-size: clamp(16px, 1.3vw, 1.8vw);
   margin: 1vh 0 0 5%;
 }
+
+main article{
+  background: white;
+  margin: 0 0 0 0;
+  padding: 0 0 1vh 0;
+}
+.blog{
+  color: crimson;
+  font-size: clamp(24px,2.4vw,3vw);
+  margin: 0 0 0 8%;
+}
+
 @keyframes movement {
   0% {
     transform: translateX(0vw);
@@ -234,17 +247,11 @@ main menu div p {
   }
 }
 
-main article{
-  background: white;
-  margin: 0 0 0 0;
-  padding: 0 0 1vh 0;
-}
-
-@media all and (max-width: 750px) {
-  main section menu {
-    grid-template-columns: repeat(1, 70% 70% 70% 70% 70% );
+@media all and (max-width: 1050px) {
+  main section menu, main article menu {
+    grid-template-columns: repeat(1, 80% 80% 80% 80% 80% );
   }
-  main section menu div{
+  main section menu div, main article menu div{
     margin: 2vh;
   }
 }  
