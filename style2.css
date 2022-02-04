@@ -1,0 +1,213 @@
+/* nav section */
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(23, 23, 23);
+}
+nav {
+  padding: 0 5% 0 5%;
+  /* background: red; */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(1, 0.5fr 2fr 0.5fr);
+  color: white;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  /* background: chartreuse; */
+  font-size: clamp(18px, 1.5vw, 2vw);
+  justify-content: space-around;
+  align-items: center;
+  justify-self: start;
+  z-index: 100;
+}
+nav li {
+  margin: 0 4vw 0 0;
+  z-index: 100;
+}
+nav p {
+  background: rgb(83, 78, 78);
+  text-align: center;
+  padding: 1.5vh;
+  border-radius: 8px;
+  font-size: clamp(18px, 1.5vw, 2vw);
+  z-index: 100;
+}
+nav li:hover,
+nav p:hover {
+  /* color: rgb(255, 254, 254, 0.5); */
+  color: rgb(202, 52, 82);
+  z-index: 100;
+}
+nav p:hover {
+  background: rgb(59, 53, 53);
+  z-index: 100;
+}
+.menu {
+  display: none;
+}
+
+@media all and (max-width: 750px) {
+  nav {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  nav ul {
+    display: none;
+    padding: 0;
+    z-index: 100;
+  }
+  nav li {
+    margin: 3vh 0 0 0;
+    z-index: 100;
+  }
+  nav p {
+    width: 30%;
+    display: none;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+  }
+}
+
+.set{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    color: white;
+    font-family:'Encode Sans Semi Expanded', sans-serif; 
+}
+.set-h2{
+font-size: clamp(66px,6.6vw,7vw);
+}
+.set-p{
+ font-size: clamp(20px,1.8vw,2.2vw);
+ opacity: 0.7;
+ line-height: 10vh;
+}
+
+.pic2{
+    display: none;
+}
+.sec{
+    background: white;
+    padding: 0.4vh 0 3vh 0;
+}
+h4{
+    font-size: clamp(42px,4.2vw,5vw);
+    color: black;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    text-align: center;
+}
+.sec-p{
+    text-align: start;
+    margin: 0 31% 0 30%;
+    font-size: clamp(20px,1.8vw,2.4vw);
+}
+.bold{
+    font-weight: bold;
+}
+
+@media all and (max-width:750px){
+    .pic1{
+        display: none;
+    }
+    .pic2{
+        display: block;
+    }
+    .set-p{
+        line-height: 6vh;
+    }
+    .sec-p{
+    text-align: start;
+    margin: 0 1% 0 3%;
+}
+}
+
+/* menu section */
+
+.sub{
+  background: rgb(24, 24, 24);
+  margin: 0vh 0 0 0;
+  padding: 1vh 0 1vh 0;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family:'Encode Sans Semi Expanded', sans-serif;
+}
+.first{
+  text-align: center;
+} 
+ .sub a{
+  color: crimson;
+  text-decoration: none;
+}
+.sub a:hover{
+  color: white;
+}
+
+@media all and (max-width:750px){
+ .sub{
+   display: block;
+ }
+ .second{
+   text-align: center;
+   border-top: 2px solid white;
+   border-bottom: 0.5px solid white;
+ }
+}
+
+
+ /* footer section */
+footer {
+  box-sizing: border-box;
+  color: white;
+  background: rgb(23, 23, 23);
+  padding: 0 5vw 0 10vw;
+  font-family: "prompt", sans-serif;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  column-gap: 5vw;
+}
+footer section p {
+  opacity: 0.7;
+}
+footer article {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+}
+footer h1 {
+  opacity: 0.9;
+}
+footer ul {
+  padding: 0 0 0 0;
+}
+footer li {
+  list-style: none;
+  opacity: 0.7;
+}
+footer menu {
+  /* background: red; */
+  width: 92.4vw;
+  margin: 0 0 0 -10vw;
+}
+footer menu p {
+  text-align: center;
+}
+
+
+@media all and (max-width:750px){
+  footer {
+    grid-template-columns: 80vw;
+  }
+  footer article {
+    column-gap: 30vw;
+  }
+  footer menu {
+    margin: 0 0 0 -15.5vw;
+  }
+}
