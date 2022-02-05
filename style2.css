@@ -23,6 +23,10 @@ nav ul {
   justify-self: start;
   z-index: 100;
 }
+nav a {
+  color: white;
+  text-decoration: none;
+}
 nav li {
   margin: 0 4vw 0 0;
   z-index: 100;
@@ -36,7 +40,8 @@ nav p {
   z-index: 100;
 }
 nav li:hover,
-nav p:hover {
+nav p:hover,
+nav a:hover {
   /* color: rgb(255, 254, 254, 0.5); */
   color: rgb(202, 52, 82);
   z-index: 100;
