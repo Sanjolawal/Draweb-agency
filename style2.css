@@ -123,6 +123,9 @@ h4{
     }
     .pic2{
         display: block;
+        width: 100%;
+        padding: 2vh 0 2vh 0;
+        height: 90vh;
     }
     .set-p{
         line-height: 6vh;
