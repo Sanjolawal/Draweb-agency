@@ -132,6 +132,10 @@ header section button {
 header section button:hover {
   background: linear-gradient(to top right, crimson 36%, white);
 }
+header button a{
+  color: white;
+  text-decoration: none;
+}
 header video {
   justify-self: center;
   width: 100%;

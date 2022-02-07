@@ -10,7 +10,6 @@ a {
 }
 a:hover{
     color: rgb(250,250,250,0.7);
-    text-decoration: underline;
 }
 .one{
     text-align: center;
@@ -43,13 +42,16 @@ a:hover{
     font-size: clamp(16px,1.4vw,2vw);
     cursor: pointer;
 }
-.price-p1:hover,.price-p2:hover{
+.price-p1{
+    color: red;
+}
+.price-p2:hover{
     color: red;
 }
 .cont{
 /* background: green; */
 display: grid;
-grid-template-columns: repeat(auto-fit, clamp(360px,48%,54%));
+grid-template-columns: repeat(auto-fit, clamp(360px,50%,54%));
 justify-items: center;
 margin: 5vh 0 0 0;
 padding: 0 0 0 15%;
