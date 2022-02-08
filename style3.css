@@ -22,7 +22,7 @@ nav p{
     font-weight: bold;
     margin: 0 0 5vh 0;
 }
-.bar{
+.bar1,.bar{
     display: none;
 }
 .logo{
@@ -51,10 +51,18 @@ nav ul li:hover{
     margin: 0 0 3vh -20%;
 }
 
+
 @media all and (max-width:750px){
-    .bar{
-        display: block;
+    .bar,.bar1{
+        display: none;
         margin: 0 0 0 5%;
+    }
+    .bar{
+      display: block;
+    }
+    .bar1{
+      position: absolute;
+      top: 2.4vh;
     }
     .bar:hover{
       border: 2px solid black;

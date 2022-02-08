@@ -53,7 +53,7 @@ nav p:hover {
   background: rgb(59, 53, 53);
   z-index: 100;
 }
-.menu {
+.menu,.menu1 {
   display: none;
 }
 
@@ -62,7 +62,7 @@ nav p:hover {
     grid-template-columns: repeat(1, 1fr);
   }
   nav ul{
-    display: block;
+    display: none;
     padding: 0;
     z-index:100;
   }
@@ -72,12 +72,21 @@ nav p:hover {
   }
   nav p {
     width: 30%;
+    display: none;
   }
-  .menu {
-    display: block;
+  .menu,.menu1 {
+    display: none;
     position: absolute;
     top: 3vh;
     right: 5%;
+  }
+  .menu1{
+    display: block;
+  }
+  .menu:hover,.menu1:hover{
+    background: red;
+    border: 2px solid white;
+    border-radius: 8px;
   }
 }
 

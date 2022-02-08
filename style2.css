@@ -4,55 +4,8 @@ body{
     padding: 0;
     background: rgb(23, 23, 23);
 }
-nav {
-  padding: 0 5% 0 5%;
-  /* background: red; */
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(1, 0.5fr 2fr 0.5fr);
-  color: white;
-  font-family: "Encode Sans Semi Expanded", sans-serif;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-  /* background: chartreuse; */
-  font-size: clamp(18px, 1.5vw, 2vw);
-  justify-content: space-around;
-  align-items: center;
-  justify-self: start;
-  z-index: 100;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-}
-nav li {
-  margin: 0 4vw 0 0;
-  z-index: 100;
-}
-nav p {
-  background: rgb(83, 78, 78);
-  text-align: center;
-  padding: 1.5vh;
-  border-radius: 8px;
-  font-size: clamp(18px, 1.5vw, 2vw);
-  z-index: 100;
-}
-nav li:hover,
-nav p:hover,
-nav a:hover {
-  /* color: rgb(255, 254, 254, 0.5); */
-  color: rgb(202, 52, 82);
-  z-index: 100;
-}
-nav p:hover {
-  background: rgb(59, 53, 53);
-  z-index: 100;
-}
-.menu {
-  display: none;
-}
+
+
 
 @media all and (max-width: 750px) {
   nav {
@@ -60,8 +13,9 @@ nav p:hover {
   }
   nav ul {
     display: none;
-    padding: 0;
     z-index: 100;
+    background: rgb(130, 118, 118);
+    width: 100%;
   }
   nav li {
     margin: 3vh 0 0 0;
@@ -85,6 +39,7 @@ nav p:hover {
     left: 4%;
     color: white;
     font-family:'Encode Sans Semi Expanded', sans-serif; 
+    z-index: 0;
 }
 .set-h2{
 font-size: clamp(66px,6.6vw,7vw);

@@ -4,6 +4,7 @@ body{
 nav{
     background: rgb(23,23,23);
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -81,7 +82,7 @@ padding: 0 0 0 15%;
 }
 ul{
     list-style: none;
-    /*background: yellow; */
+    /* /*background: yellow;  */
     padding: 2vh 0vw 2vh 0vw;
     line-height: 3.6vh;
 }
