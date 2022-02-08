@@ -65,7 +65,7 @@ padding: 0 0 0 15%;
     box-shadow: 0 0 0.6px;
     margin: 3vh 0 0 0;
 }
-#hide{
+#box3,#box4{
     display: none;
 }
 .par{
@@ -97,4 +97,10 @@ ul{
         margin: 0 25% 0 25%;
         width: 40%;
     }
+}
+
+@media all and (max-width:400px){
+   .cont{
+       padding: 0 20% 0 0;
+   }
 }
