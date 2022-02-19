@@ -23,4 +23,4 @@
 
 # Featured picture
 
-![Image](./images/coming2.png).
+![Image](/assets/images/coming2.png).
