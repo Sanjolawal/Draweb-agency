@@ -23,4 +23,4 @@
 
 # Featured picture
 
-![Image](./index.html).
+![Image](./images/coming2.png).
