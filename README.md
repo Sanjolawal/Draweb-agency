@@ -11,13 +11,13 @@
 
 
 # Project timeline and technology used includes:
-    **Was built in 7days, to showcase the following:**
+    ### Was built in 7days, to showcase the following:
  
  
   * HTML5
   * CSS3
-  - Responsive design skill
-  - Vanilla javascript
+  * Responsive design skill
+  * Vanilla javascript
   * Dom manipulation.
 
 
