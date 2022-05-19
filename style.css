@@ -30,9 +30,10 @@ nav li {
   margin: 0 4vw 0 0;
   z-index: 100;
 }
-nav a{
+nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  cursor: pointer;
 }
 nav p {
   background: rgb(83, 78, 78);
@@ -53,7 +54,8 @@ nav p:hover {
   background: rgb(59, 53, 53);
   z-index: 100;
 }
-.menu,.menu1 {
+.menu,
+.menu1 {
   display: none;
 }
 
@@ -61,10 +63,10 @@ nav p:hover {
   nav {
     grid-template-columns: repeat(1, 1fr);
   }
-  nav ul{
+  nav ul {
     display: none;
     padding: 0;
-    z-index:100;
+    z-index: 100;
   }
   nav li {
     margin: 3vh 0 0 0;
@@ -74,16 +76,18 @@ nav p:hover {
     width: 30%;
     display: none;
   }
-  .menu,.menu1 {
+  .menu,
+  .menu1 {
     display: none;
     position: absolute;
     top: 3vh;
     right: 5%;
   }
-  .menu1{
+  .menu1 {
     display: block;
   }
-  .menu:hover,.menu1:hover{
+  .menu:hover,
+  .menu1:hover {
     background: red;
     border: 2px solid white;
     border-radius: 8px;
@@ -92,7 +96,7 @@ nav p:hover {
 
 /* Header section */
 
-   header {
+header {
   color: white;
   font-family: "Encode Sans Semi Expanded", sans-serif;
   display: grid;
@@ -141,7 +145,7 @@ header section button {
 header section button:hover {
   background: linear-gradient(to top right, crimson 36%, white);
 }
-header button a{
+header button a {
   color: white;
   text-decoration: none;
 }
@@ -168,7 +172,7 @@ header video {
   header video {
     height: 100%;
   }
-} 
+}
 
 /* main section */
 
@@ -182,26 +186,27 @@ main section {
 .p {
   padding: 0 5% 0 5%;
 }
-.img{
+.img {
   margin: 3vh 0 0 0;
 }
-.h1{
-  font-size: clamp(30px,2.8vw,3.2vw);
-  font-family:'Encode Sans Semi Expanded', sans-serif;
+.h1 {
+  font-size: clamp(30px, 2.8vw, 3.2vw);
+  font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: bold;
   color: crimson;
 }
-.p{
-  font-size: clamp(16px,1.7vw,2.4vw);
+.p {
+  font-size: clamp(16px, 1.7vw, 2.4vw);
   font-weight: 900;
-  font-family:'Encode Sans Semi Expanded', sans-serif ;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
   line-height: 5.6vh;
 }
-.cta{
+.cta {
   color: crimson;
   text-decoration: none;
 }
-main section menu, main article menu {
+main section menu,
+main article menu {
   background: rgb(250, 250, 250);
   /* background: red; */
   padding: 3vh 0 3vh 0;
@@ -211,11 +216,12 @@ main section menu, main article menu {
   grid-template-columns: repeat(2, 30vw 30vw 30vw 30vw 30vw);
   overflow-x: hidden;
 }
- /* main section menu div:hover{
+/* main section menu div:hover{
   animation-play-state: paused;
   z-index: 100;
 }  */
-main section menu div, main article menu div {
+main section menu div,
+main article menu div {
   background: rgb(250, 250, 250);
   height: 42vh;
   border-radius: 8px;
@@ -245,14 +251,14 @@ main menu div p {
   margin: 1vh 0 0 5%;
 }
 
-main article{
+main article {
   background: white;
   margin: 0 0 0 0;
   padding: 0 0 1vh 0;
 }
-.blog{
+.blog {
   color: crimson;
-  font-size: clamp(24px,2.4vw,3vw);
+  font-size: clamp(24px, 2.4vw, 3vw);
   margin: 0 0 0 8%;
 }
 
@@ -266,48 +272,49 @@ main article{
 }
 
 @media all and (max-width: 1050px) {
-  main section menu, main article menu {
-    grid-template-columns: repeat(1, 80% 80% 80% 80% 80% );
+  main section menu,
+  main article menu {
+    grid-template-columns: repeat(1, 80% 80% 80% 80% 80%);
   }
-  main section menu div, main article menu div{
+  main section menu div,
+  main article menu div {
     margin: 2vh;
   }
-}  
+}
 
-  /* menu section */
+/* menu section */
 
-
- .sub{
+.sub {
   background: rgb(24, 24, 24);
   margin: 0vh 0 0 0;
   padding: 1vh 0 1vh 0;
   display: flex;
   justify-content: space-around;
   color: white;
-  font-family:'Encode Sans Semi Expanded', sans-serif;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
 }
-.first{
+.first {
   text-align: center;
-} 
- .sub a{
+}
+.sub a {
   color: crimson;
   text-decoration: none;
 }
-.sub a:hover{
+.sub a:hover {
   color: white;
 }
 
-@media all and (max-width:750px){
- .sub{
-   display: block;
- }
- .second{
-   text-align: center;
-   border-top: 2px solid white;
-   border-bottom: 0.5px solid white;
- }
+@media all and (max-width: 750px) {
+  .sub {
+    display: block;
+  }
+  .second {
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 0.5px solid white;
+  }
 }
- 
+
 /* footer section */
 
 footer {
@@ -346,7 +353,7 @@ footer menu p {
   text-align: center;
 }
 
-@media all and (max-width:750px){
+@media all and (max-width: 750px) {
   footer {
     grid-template-columns: 80vw;
   }

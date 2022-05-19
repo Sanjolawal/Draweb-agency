@@ -1,0 +1,52 @@
+/* nav section */
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(23, 23, 23);
+}
+
+.set {
+  background: url("./images/bk image.png");
+  width: 86vw;
+  /* height: 50vh; */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0 5% 0 5%;
+}
+.set-h2 {
+  font-weight: 900;
+  font-size: clamp(52px, 6.2vw, 6.4vw);
+}
+.set-p {
+  font-size: clamp(18px, 2vw, 2.2vw);
+}
+
+.sec {
+  background: white;
+  padding: 0.4vh 0 3vh 0;
+}
+h4 {
+  font-size: clamp(32px, 3.2vw, 3.6vw);
+  color: black;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  text-align: center;
+}
+.sec-p {
+  text-align: start;
+  margin: 0 31% 0 30%;
+  font-size: clamp(20px, 1.8vw, 2.4vw);
+}
+.bold {
+  font-weight: bold;
+}
+
+@media all and (max-width: 750px) {
+  .set-p {
+    line-height: 4.6vh;
+  }
+  .sec-p {
+    margin: 0 1% 0 3%;
+  }
+}
